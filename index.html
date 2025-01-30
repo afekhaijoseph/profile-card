@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6afc5a8fe.js" crossorigin="anonymous"></script>
+    <title>Profile card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="padre.jpeg" alt="" data-testid="profilePicture" />
+      </div>
+      <div class="info-container">
+        <div class="info">
+          <h2 data-testid="fullName">Afekhai Joseph</h1>
+            <div class="job-location">
+              <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <p data-testid="jobTitle">Frontend developer</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p data-testid="currentLocation"> Lagos, Nigeria</p>
+              </div>
+
+              <div class="clock">
+                <i class="fa-regular fa-clock"></i>
+                <p class="time" data-testid="currentTimeUTC"></p>
+              </div>
+            </div>
+  
+          
+          <div class="about" data-testid="shortBio"> 
+            <h2>Bio</h2>
+            <p>Hey there, I'm Joe, passionate frontend developer witha keen interest in creating user-friendly and visually appealing web applications. 
+              I enjoy transforming ideas into reality through code and I'm always eager to learn more and improve my skills.
+              I am excited to comtribute to innovative projects and collaborating with talented teams.
+            </p>
+          </div>
+  
+          <div class="socials" data-testid="socialLinks">
+            <div>
+              <i class="fa-brands fa-github-alt"></i>
+              <a href="https://github.com/">github</a>
+              <p></p>
+            </div>
+            <div>
+              <i class="fa-brands fa-x-twitter"></i>
+              <a href="">twitter</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p data-testid="emailAddress">Broodingjoseph@gmail.com</p>
+            </div>
+            
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
